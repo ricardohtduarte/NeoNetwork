@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		A142A7E327A9E89F003E9089 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A142A7E227A9E89F003E9089 /* AppDelegate.swift */; };
 		A142A7E527A9E89F003E9089 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A142A7E427A9E89F003E9089 /* SceneDelegate.swift */; };
-		A142A7E727A9E89F003E9089 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A142A7E627A9E89F003E9089 /* ViewController.swift */; };
-		A142A7EA27A9E89F003E9089 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A142A7E827A9E89F003E9089 /* Main.storyboard */; };
 		A142A7EC27A9E8A0003E9089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A142A7EB27A9E8A0003E9089 /* Assets.xcassets */; };
 		A142A7EF27A9E8A0003E9089 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A142A7ED27A9E8A0003E9089 /* LaunchScreen.storyboard */; };
 		A142A7FA27A9E8A1003E9089 /* NeoNetworkExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A142A7F927A9E8A1003E9089 /* NeoNetworkExampleTests.swift */; };
 		A142A80427A9E8A1003E9089 /* NeoNetworkExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A142A80327A9E8A1003E9089 /* NeoNetworkExampleUITests.swift */; };
 		A142A80627A9E8A1003E9089 /* NeoNetworkExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A142A80527A9E8A1003E9089 /* NeoNetworkExampleUITestsLaunchTests.swift */; };
+		A142A81527A9EA79003E9089 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A142A81427A9EA79003E9089 /* ViewController.swift */; };
+		A142A81727A9EA85003E9089 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A142A81627A9EA85003E9089 /* Main.storyboard */; };
+		A142A81A27A9EAD1003E9089 /* NeoNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = A142A81927A9EAD1003E9089 /* NeoNetwork */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,6 @@
 		A142A7DF27A9E89F003E9089 /* NeoNetworkExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeoNetworkExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A142A7E227A9E89F003E9089 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A142A7E427A9E89F003E9089 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A142A7E627A9E89F003E9089 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A142A7E927A9E89F003E9089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A142A7EB27A9E8A0003E9089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A142A7EE27A9E8A0003E9089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A142A7F027A9E8A0003E9089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +48,9 @@
 		A142A7FF27A9E8A1003E9089 /* NeoNetworkExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeoNetworkExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A142A80327A9E8A1003E9089 /* NeoNetworkExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoNetworkExampleUITests.swift; sourceTree = "<group>"; };
 		A142A80527A9E8A1003E9089 /* NeoNetworkExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoNetworkExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A142A81327A9E9FA003E9089 /* NeoNetwork */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = NeoNetwork; path = ..; sourceTree = "<group>"; };
+		A142A81427A9EA79003E9089 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A142A81627A9EA85003E9089 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A142A81A27A9EAD1003E9089 /* NeoNetwork in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +82,12 @@
 		A142A7D627A9E89F003E9089 = {
 			isa = PBXGroup;
 			children = (
+				A142A81327A9E9FA003E9089 /* NeoNetwork */,
 				A142A7E127A9E89F003E9089 /* NeoNetworkExample */,
 				A142A7F827A9E8A1003E9089 /* NeoNetworkExampleTests */,
 				A142A80227A9E8A1003E9089 /* NeoNetworkExampleUITests */,
 				A142A7E027A9E89F003E9089 /* Products */,
+				A142A81827A9EAD1003E9089 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +106,8 @@
 			children = (
 				A142A7E227A9E89F003E9089 /* AppDelegate.swift */,
 				A142A7E427A9E89F003E9089 /* SceneDelegate.swift */,
-				A142A7E627A9E89F003E9089 /* ViewController.swift */,
-				A142A7E827A9E89F003E9089 /* Main.storyboard */,
+				A142A81427A9EA79003E9089 /* ViewController.swift */,
+				A142A81627A9EA85003E9089 /* Main.storyboard */,
 				A142A7EB27A9E8A0003E9089 /* Assets.xcassets */,
 				A142A7ED27A9E8A0003E9089 /* LaunchScreen.storyboard */,
 				A142A7F027A9E8A0003E9089 /* Info.plist */,
@@ -127,6 +132,13 @@
 			path = NeoNetworkExampleUITests;
 			sourceTree = "<group>";
 		};
+		A142A81827A9EAD1003E9089 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +155,9 @@
 			dependencies = (
 			);
 			name = NeoNetworkExample;
+			packageProductDependencies = (
+				A142A81927A9EAD1003E9089 /* NeoNetwork */,
+			);
 			productName = NeoNetworkExample;
 			productReference = A142A7DF27A9E89F003E9089 /* NeoNetworkExample.app */;
 			productType = "com.apple.product-type.application";
@@ -231,9 +246,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A142A81727A9EA85003E9089 /* Main.storyboard in Resources */,
 				A142A7EF27A9E8A0003E9089 /* LaunchScreen.storyboard in Resources */,
 				A142A7EC27A9E8A0003E9089 /* Assets.xcassets in Resources */,
-				A142A7EA27A9E89F003E9089 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A142A7E727A9E89F003E9089 /* ViewController.swift in Sources */,
+				A142A81527A9EA79003E9089 /* ViewController.swift in Sources */,
 				A142A7E327A9E89F003E9089 /* AppDelegate.swift in Sources */,
 				A142A7E527A9E89F003E9089 /* SceneDelegate.swift in Sources */,
 			);
@@ -297,14 +312,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A142A7E827A9E89F003E9089 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A142A7E927A9E89F003E9089 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A142A7ED27A9E8A0003E9089 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -598,6 +605,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A142A81927A9EAD1003E9089 /* NeoNetwork */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NeoNetwork;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A142A7D727A9E89F003E9089 /* Project object */;
 }
