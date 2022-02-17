@@ -14,17 +14,11 @@
 		A142A81527A9EA79003E9089 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A142A81427A9EA79003E9089 /* ViewController.swift */; };
 		A142A81727A9EA85003E9089 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A142A81627A9EA85003E9089 /* Main.storyboard */; };
 		A142A81A27A9EAD1003E9089 /* NeoNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = A142A81927A9EAD1003E9089 /* NeoNetwork */; };
+		A1E261F727BEF65E0091BC0A /* NeoNetworkExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E261F627BEF65E0091BC0A /* NeoNetworkExampleTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A142A7F627A9E8A1003E9089 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A142A7D727A9E89F003E9089 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A142A7DE27A9E89F003E9089;
-			remoteInfo = NeoNetworkExample;
-		};
-		A142A80027A9E8A1003E9089 /* PBXContainerItemProxy */ = {
+		A1E261F827BEF65E0091BC0A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A142A7D727A9E89F003E9089 /* Project object */;
 			proxyType = 1;
@@ -40,11 +34,11 @@
 		A142A7EB27A9E8A0003E9089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A142A7EE27A9E8A0003E9089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A142A7F027A9E8A0003E9089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A142A7F527A9E8A1003E9089 /* NeoNetworkExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeoNetworkExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A142A7FF27A9E8A1003E9089 /* NeoNetworkExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeoNetworkExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A142A81327A9E9FA003E9089 /* NeoNetwork */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = NeoNetwork; path = ..; sourceTree = "<group>"; };
 		A142A81427A9EA79003E9089 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A142A81627A9EA85003E9089 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A1E261F427BEF65E0091BC0A /* NeoNetworkExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeoNetworkExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1E261F627BEF65E0091BC0A /* NeoNetworkExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoNetworkExampleTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,14 +50,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A142A7F227A9E8A1003E9089 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A142A7FC27A9E8A1003E9089 /* Frameworks */ = {
+		A1E261F127BEF65E0091BC0A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,6 +65,7 @@
 			children = (
 				A142A81327A9E9FA003E9089 /* NeoNetwork */,
 				A142A7E127A9E89F003E9089 /* NeoNetworkExample */,
+				A1E261F527BEF65E0091BC0A /* NeoNetworkExampleTests */,
 				A142A7E027A9E89F003E9089 /* Products */,
 				A142A81827A9EAD1003E9089 /* Frameworks */,
 			);
@@ -87,8 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				A142A7DF27A9E89F003E9089 /* NeoNetworkExample.app */,
-				A142A7F527A9E8A1003E9089 /* NeoNetworkExampleTests.xctest */,
-				A142A7FF27A9E8A1003E9089 /* NeoNetworkExampleUITests.xctest */,
+				A1E261F427BEF65E0091BC0A /* NeoNetworkExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,6 +101,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A1E261F527BEF65E0091BC0A /* NeoNetworkExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1E261F627BEF65E0091BC0A /* NeoNetworkExampleTests.swift */,
+			);
+			path = NeoNetworkExampleTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,41 +132,23 @@
 			productReference = A142A7DF27A9E89F003E9089 /* NeoNetworkExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A142A7F427A9E8A1003E9089 /* NeoNetworkExampleTests */ = {
+		A1E261F327BEF65E0091BC0A /* NeoNetworkExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A142A80C27A9E8A1003E9089 /* Build configuration list for PBXNativeTarget "NeoNetworkExampleTests" */;
+			buildConfigurationList = A1E261FA27BEF65E0091BC0A /* Build configuration list for PBXNativeTarget "NeoNetworkExampleTests" */;
 			buildPhases = (
-				A142A7F127A9E8A1003E9089 /* Sources */,
-				A142A7F227A9E8A1003E9089 /* Frameworks */,
-				A142A7F327A9E8A1003E9089 /* Resources */,
+				A1E261F027BEF65E0091BC0A /* Sources */,
+				A1E261F127BEF65E0091BC0A /* Frameworks */,
+				A1E261F227BEF65E0091BC0A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A142A7F727A9E8A1003E9089 /* PBXTargetDependency */,
+				A1E261F927BEF65E0091BC0A /* PBXTargetDependency */,
 			);
 			name = NeoNetworkExampleTests;
 			productName = NeoNetworkExampleTests;
-			productReference = A142A7F527A9E8A1003E9089 /* NeoNetworkExampleTests.xctest */;
+			productReference = A1E261F427BEF65E0091BC0A /* NeoNetworkExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		A142A7FE27A9E8A1003E9089 /* NeoNetworkExampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A142A80F27A9E8A1003E9089 /* Build configuration list for PBXNativeTarget "NeoNetworkExampleUITests" */;
-			buildPhases = (
-				A142A7FB27A9E8A1003E9089 /* Sources */,
-				A142A7FC27A9E8A1003E9089 /* Frameworks */,
-				A142A7FD27A9E8A1003E9089 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A142A80127A9E8A1003E9089 /* PBXTargetDependency */,
-			);
-			name = NeoNetworkExampleUITests;
-			productName = NeoNetworkExampleUITests;
-			productReference = A142A7FF27A9E8A1003E9089 /* NeoNetworkExampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -186,11 +163,7 @@
 					A142A7DE27A9E89F003E9089 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
-					A142A7F427A9E8A1003E9089 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = A142A7DE27A9E89F003E9089;
-					};
-					A142A7FE27A9E8A1003E9089 = {
+					A1E261F327BEF65E0091BC0A = {
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = A142A7DE27A9E89F003E9089;
 					};
@@ -210,8 +183,7 @@
 			projectRoot = "";
 			targets = (
 				A142A7DE27A9E89F003E9089 /* NeoNetworkExample */,
-				A142A7F427A9E8A1003E9089 /* NeoNetworkExampleTests */,
-				A142A7FE27A9E8A1003E9089 /* NeoNetworkExampleUITests */,
+				A1E261F327BEF65E0091BC0A /* NeoNetworkExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -227,14 +199,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A142A7F327A9E8A1003E9089 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A142A7FD27A9E8A1003E9089 /* Resources */ = {
+		A1E261F227BEF65E0091BC0A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,32 +219,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A142A7F127A9E8A1003E9089 /* Sources */ = {
+		A1E261F027BEF65E0091BC0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A142A7FB27A9E8A1003E9089 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				A1E261F727BEF65E0091BC0A /* NeoNetworkExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A142A7F727A9E8A1003E9089 /* PBXTargetDependency */ = {
+		A1E261F927BEF65E0091BC0A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A142A7DE27A9E89F003E9089 /* NeoNetworkExample */;
-			targetProxy = A142A7F627A9E8A1003E9089 /* PBXContainerItemProxy */;
-		};
-		A142A80127A9E8A1003E9089 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A142A7DE27A9E89F003E9089 /* NeoNetworkExample */;
-			targetProxy = A142A80027A9E8A1003E9089 /* PBXContainerItemProxy */;
+			targetProxy = A1E261F827BEF65E0091BC0A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -465,15 +419,13 @@
 			};
 			name = Release;
 		};
-		A142A80D27A9E8A1003E9089 /* Debug */ = {
+		A1E261FB27BEF65E0091BC0A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftTech.NeoNetworkExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -484,15 +436,13 @@
 			};
 			name = Debug;
 		};
-		A142A80E27A9E8A1003E9089 /* Release */ = {
+		A1E261FC27BEF65E0091BC0A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftTech.NeoNetworkExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -500,40 +450,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeoNetworkExample.app/NeoNetworkExample";
-			};
-			name = Release;
-		};
-		A142A81027A9E8A1003E9089 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftTech.NeoNetworkExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NeoNetworkExample;
-			};
-			name = Debug;
-		};
-		A142A81127A9E8A1003E9089 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftTech.NeoNetworkExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NeoNetworkExample;
 			};
 			name = Release;
 		};
@@ -558,20 +474,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A142A80C27A9E8A1003E9089 /* Build configuration list for PBXNativeTarget "NeoNetworkExampleTests" */ = {
+		A1E261FA27BEF65E0091BC0A /* Build configuration list for PBXNativeTarget "NeoNetworkExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A142A80D27A9E8A1003E9089 /* Debug */,
-				A142A80E27A9E8A1003E9089 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A142A80F27A9E8A1003E9089 /* Build configuration list for PBXNativeTarget "NeoNetworkExampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A142A81027A9E8A1003E9089 /* Debug */,
-				A142A81127A9E8A1003E9089 /* Release */,
+				A1E261FB27BEF65E0091BC0A /* Debug */,
+				A1E261FC27BEF65E0091BC0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
