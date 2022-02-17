@@ -1,0 +1,12 @@
+platform :ios do
+desc "Run tests and create a unit-test report"
+lane :tests do
+run_tests(
+project: 'NeoNetworkExample/NeoNetworkExample.xcodeproj',
+scheme: 'NeoNetworkExampleTests',
+device: 'iPhone 13 Pro Max',
+clean: true
+)
+end
+
+end
