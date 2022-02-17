@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A142A7F427A9E8A1003E9089"
+               BlueprintIdentifier = "A1E261F327BEF65E0091BC0A"
                BuildableName = "NeoNetworkExampleTests.xctest"
                BlueprintName = "NeoNetworkExampleTests"
                ReferencedContainer = "container:NeoNetworkExample.xcodeproj">
