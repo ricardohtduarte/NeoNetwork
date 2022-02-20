@@ -6,11 +6,11 @@ public protocol NeoNetworkProtocol {
 }
 
 public final class NeoNetwork {
-    private let urlSession: URLSessionProtocol
+    private let urlSession: URLSession
     private let decoder: JSONDecoder
     private let fetcherQueue: DispatchQueue
 
-    public init(urlSession: URLSessionProtocol = URLSession.shared,
+    public init(urlSession: URLSession = URLSession.shared,
                 decoder: JSONDecoder = .init(),
                 fetcherQueue: DispatchQueue = .init(label: "Network Service Queue")) {
         self.urlSession = urlSession
