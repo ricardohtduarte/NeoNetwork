@@ -16,7 +16,7 @@
 		A142A81A27A9EAD1003E9089 /* NeoNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = A142A81927A9EAD1003E9089 /* NeoNetwork */; };
 		A1CC8A3027C11B0300716D3E /* URLSessionMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CC8A2F27C11B0300716D3E /* URLSessionMock.swift */; };
 		A1CC8A3227C11D0F00716D3E /* URLSessionDataTaskMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CC8A3127C11D0F00716D3E /* URLSessionDataTaskMock.swift */; };
-		A1E261F727BEF65E0091BC0A /* NeoNetworkExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E261F627BEF65E0091BC0A /* NeoNetworkExampleTests.swift */; };
+		A1E261F727BEF65E0091BC0A /* NeoEndpointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E261F627BEF65E0091BC0A /* NeoEndpointTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +42,7 @@
 		A1CC8A2F27C11B0300716D3E /* URLSessionMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionMock.swift; sourceTree = "<group>"; };
 		A1CC8A3127C11D0F00716D3E /* URLSessionDataTaskMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionDataTaskMock.swift; sourceTree = "<group>"; };
 		A1E261F427BEF65E0091BC0A /* NeoNetworkExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeoNetworkExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1E261F627BEF65E0091BC0A /* NeoNetworkExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoNetworkExampleTests.swift; sourceTree = "<group>"; };
+		A1E261F627BEF65E0091BC0A /* NeoEndpointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoEndpointTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				A1CC8A2E27C11AEA00716D3E /* Mocks */,
-				A1E261F627BEF65E0091BC0A /* NeoNetworkExampleTests.swift */,
+				A1E261F627BEF65E0091BC0A /* NeoEndpointTests.swift */,
 			);
 			path = NeoNetworkExampleTests;
 			sourceTree = "<group>";
@@ -238,7 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1CC8A3027C11B0300716D3E /* URLSessionMock.swift in Sources */,
-				A1E261F727BEF65E0091BC0A /* NeoNetworkExampleTests.swift in Sources */,
+				A1E261F727BEF65E0091BC0A /* NeoEndpointTests.swift in Sources */,
 				A1CC8A3227C11D0F00716D3E /* URLSessionDataTaskMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
